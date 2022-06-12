@@ -1,7 +1,6 @@
 package ru.kata.spring.boot_security.demo.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
@@ -17,7 +16,7 @@ public class AdminsController {
 	}
 
 	@GetMapping("/")
-	public String loginPage(ModelMap model) {
+	public String loginPage() {
 		return "login";
 	}
 }
