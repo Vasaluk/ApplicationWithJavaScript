@@ -19,9 +19,6 @@ public class AdminsRestController {
 	private final UserService userService;
 	private final RoleService roleService;
 
-
-
-
 	@Autowired
 	public AdminsRestController(UserServiceImp userService, RoleServiceImp roleService) {
 		this.userService = userService;
